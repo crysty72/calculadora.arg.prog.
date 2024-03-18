@@ -63,3 +63,22 @@ background-image: url(https://images.unsplash.com/photo-1506102383123-c8ef1e8727
     width:100%;
     bottom: 0%;
 }
+@media screen and (max-width:480px){
+  #pantalla {
+    width: 85%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  footer {
+
+    background-color: dimgray;
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width:100%;
+    bottom: 0%;
+}
+}
