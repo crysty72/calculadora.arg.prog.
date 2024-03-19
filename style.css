@@ -1,8 +1,8 @@
 body {
   margin: 0%;
-  padding: o;
+  padding: 0%;
     font-family: Arial, sans-serif;
-background-image: url(https://images.unsplash.com/photo-1506102383123-c8ef1e872756?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(https://images.unsplash.com/photo-1506102383123-c8ef1e872756?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
   }
   
@@ -59,7 +59,7 @@ background-image: url(https://images.unsplash.com/photo-1506102383123-c8ef1e8727
     color: aliceblue;
     padding: 15px;
     text-align: center;
-    position: fixed;
+    position: relative;
     width:100%;
     bottom: 0%;
 }
@@ -73,8 +73,8 @@ background-image: url(https://images.unsplash.com/photo-1506102383123-c8ef1e8727
   }
   footer {
 
-    background-color: dimgray;
-    color: aliceblue;
+    background-color: rgb(59, 60, 56);
+    color: rgb(154, 197, 235);
     padding: 15px;
     text-align: center;
     position: fixed;
@@ -86,9 +86,9 @@ background-image: url(https://images.unsplash.com/photo-1506102383123-c8ef1e8727
   /* Responsive desing | Mobile */
   
   @media (max-width: 480px) {
-    header, .main, footer {
+    header, .calculadora, footer {
       flex-direction: column;
-      gap: 10px;
+      gap: 20px;
     }
   }
   
